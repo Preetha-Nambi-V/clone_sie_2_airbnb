@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb | Holydayrentals, cabins, beach houses & more</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/images.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+ <header> 
+        <div class="left-section">
+        <img src="./assets/images.jpeg" alt="Airbnb Logo" class="logo">
+  <span class="label">airbnb</span>
+</div>
+<div class="center-section">
+        <div class="radio-tabs d-flex">
+            <div class="tabs-container">
+            <input type="radio" id="stays" name="tab" checked>
+            <label for="stays">Stays</label>
+
+            <input type="radio" id="experiences" name="tab">
+            <label for="experiences">Experiences</label>
+        </div>
+    </div>
+    </div>
+    
+    <div class="right-section">
+        <button type="button" class="btn btn-outline-secondary">Airbnb your home</button>
+        <i class="fa-solid fa-globe"></i>
+
+
+        <div class="dropdown">
+            <a class="btn btn-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-grip-lines fa-sm"></i>
+                <i class="fa-solid fa-circle-user fa-lg" style="color: #757b84;"></i>
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sign up</a></li>
+              <li><a class="dropdown-item" href="#">Log in</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Airbnb your home</a></li>
+              <li><a class="dropdown-item" href="#">Host an experience</a></li>
+              <li><a class="dropdown-item" href="#">Help Center</a></li>
+            </ul>
+          </div>
+    </div>
+</header>
+    <div class="search-container">
+        <div class="stays">
+            <p>Where</p>
+            <input type="text" placeholder="Search destination"> 
+        </div>
+        <div class="line"><h1>|</h1></div>
+        <div class="stays">
+            <p>Check in</p>
+            <input type="text" placeholder="Add dates"> 
+        </div>
+        <div class="line"><h1>|</h1></div>
+        <div class="stays">
+            <p>Check out</p>
+            <input type="text" placeholder="Add dates"> 
+        </div>
+        <div class="line"><h1>|</h1></div>
+        <div class="stays">
+            <p>Who</p>
+            <input type="text" placeholder="Add dates"> 
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        </div>
+    </div>
+<hr>
+
+<div class="places">
+    <div class="place-item">
+        <a href="">
+            <img src="./assets/image1.jpg" alt="Farm Image">
+            <span>Farms</span>
+        </a>
+    </div>
+
+    <div class="place-item">
+        <a href="">
+            <img src="./assets/image2.webp" alt="Farm Image">
+            <span>Icons</span>
+        </a>
+    </div>
+    <div class="place-item">
+        <a href="">
+            <img src="./assets/image3.jpg" alt="Farm Image">
+            <span>Icons</span>
+        </a>
+    </div>
+    <div class="place-item">
+        <a href="">
+            <img src="./assets/image4.jpg" alt="Farm Image">
+            <span>Icons</span>
+        </a>
+    </div><div class="place-item">
+        <a href="">
+            <img src="./assets/image5.jpg" alt="Farm Image">
+            <span>Icons</span>
+        </a>
+    </div>
+
+<div class="place-item">
+    <a href="">
+        <img src="./assets/image6.jpg" alt="Farm Image">
+        <span>Icons</span>
+    </a>
+</div>
+<div class="place-item">
+    <a href="">
+        <img src="./assets/image7.jpg" alt="Farm Image">
+        <span>Icons</span>
+    </a>
+</div>
+<div class="place-item">
+    <a href="">
+        <img src="./assets/image8.jpg" alt="Farm Image">
+        <span>Icons</span>
+    </a>
+</div>
+<div class="place-item">
+    <a href="">
+        <img src="./assets/image9.jpg" alt="Farm Image">
+        <span>Icons</span>
+    </a>
+</div>
+<div class="place-item">
+    <a href="">
+        <img src="./assets/image10.jpg" alt="Farm Image">
+        <span>Icons</span>
+    </a>
+</div>
+<div class="place-item">
+    <a href="">
+        <img src="./assets/image12.jpg" alt="Farm Image">
+        <span>Icons</span>
+    </a>
+</div>
+<div class="place-item">
+    <a href="">
+        <img src="./assets/image13.jpg" alt="Farm Image">
+        <span>Icons</span>
+    </a>
+</div>
+<button type="button" class="btn btn-1"><i class="fa-solid fa-sliders"></i>Filters</button>
+<button type="button" class="btn btn-2">Display total before taxes <i class="fa-solid fa-toggle-off fa-xl"></i></button>
+</div>
+
+<div class="container">
+    <div class="row mt-5" style="height: 400px;">
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                <img src="./assets/place_image-1.avif"
+                    class="card-img-top card-image" alt="..." height="280px" width="10px">
+                    <div class="overlay-text">Guest favourite</div>
+                    <div class="heart-icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Coimbatore, India <span style="margin-left: 135px;"><i class="fa-solid fa-star"></i>5.0</span></h5>
+                    <p class="card-text">444 Kilometers away <br> 2-7 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 1,836
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-2.webp"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> <div class="card-body">
+                    <h5 class="card-title">Karnataka, India <span style="margin-left: 140px;"><i class="fa-solid fa-star"></i>4.88</span></h5>
+                    <p class="card-text">457 Kilometers away <br> 5-10 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 6,848
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-3.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> <div class="card-body">
+                    <h5 class="card-title">Kottathara, India<span style="margin-left: 140px;"><i class="fa-solid fa-star"></i>4.97</span></h5>
+                    <p class="card-text">489 Kilometers away <br> 4-9 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 7,531
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-4.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="overlay-text">Guest favourite</div>
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>  <div class="card-body">
+                    <h5 class="card-title">Bengaluru Urban, India <span style="margin-left: 90px;"><i class="fa-solid fa-star"></i>4.94</span></h5>
+                    <p class="card-text">297 Kilometers away <br> 11-16 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 20,655
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row mt-5" style="height: 400px;">
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-5.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div><div class="card-body">
+                    <h5 class="card-title">Chambebellur, India <span style="margin-left: 110px;"><i class="fa-solid fa-star"></i>4.86</span></h5>
+                    <p class="card-text">496 Kilometers away <br> 16-21 Dec <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 5,135
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-6.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div><div class="card-body">
+                    <h5 class="card-title">Mysore, India <span style="margin-left: 160px;"><i class="fa-solid fa-star"></i>4.86</span></h5>
+                    <p class="card-text">421 Kilometers away <br> 16-21 Dec <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 7,189
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-7.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> 
+                    <div class="card-body">
+                    <h5 class="card-title">Ravugodlu, India<span style="margin-left: 140px;"><i class="fa-solid fa-star"></i>4.81</span></h5>
+                    <p class="card-text">304 Kilometers away <br> 16-21 Dec <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 6,331
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-8.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> <div class="card-body">
+                    <h5 class="card-title">Padinjarathra, India <span style="margin-left: 115px;"><i class="fa-solid fa-star"></i>4.99</span></h5>
+                    <p class="card-text">489 Kilometers away <br> 30Dec-4Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 8,215
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    <div class="row mt-5" style="height: 400px;">
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-9.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="overlay-text">Guest favourite</div>
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> <div class="card-body">
+                    <h5 class="card-title">Hosur, India <span style="margin-left: 170px;"><i class="fa-solid fa-star"></i>4.96</span></h5>
+                    <p class="card-text">256 Kilometers away <br> 2-7 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 6,824
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-10.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="overlay-text">Guest favourite</div>
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> <div class="card-body">
+                    <h5 class="card-title">Puzhamoola, Wayanad, India <span style="margin-left: 50px;"><i class="fa-solid fa-star"></i>4.94</span></h5>
+                    <p class="card-text">457 Kilometers away <br> 11-16 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 3,888
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-11.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div><div class="card-body">
+                    <h5 class="card-title">Bilagola, India<span style="margin-left: 158px;"><i class="fa-solid fa-star"></i>4.97</span></h5>
+                    <p class="card-text">501 Kilometers away <br> 5-10 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 4,343
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-12.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="overlay-text">Guest favourite</div>
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> <div class="card-body">
+                    <h5 class="card-title">Nilgiris, India <span style="margin-left: 160px;"><i class="fa-solid fa-star"></i>4.79</span></h5>
+                    <p class="card-text">427 Kilometers away <br> 16-21 Dec <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 4,850
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    <div class="row mt-5" style="height: 400px;">
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image13.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> <div class="card-body">
+                    <h5 class="card-title">Kodandu, India <span style="margin-left: 147px;"><i class="fa-solid fa-star"></i>4.93</span></h5>
+                    <p class="card-text">486 Kilometers away <br> 28 Dec-2 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 1,141
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-14.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> <div class="card-body">
+                    <h5 class="card-title">Srirangapatna, India <span style="margin-left: 110px;"><i class="fa-solid fa-star"></i>4.88</span></h5>
+                    <p class="card-text">397 Kilometers away <br> 14-19 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 3,538
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-15.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="overlay-text">Guest favourite</div>
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div> <div class="card-body">
+                    <h5 class="card-title">Kalalavadi, India<span style="margin-left: 145px;"><i class="fa-solid fa-star"></i>4.84</span></h5>
+                    <p class="card-text">409 Kilometers away <br> 1-6 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 3,538
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="card p-3" style="width: 25rem; border: none;">
+                <div class="image-container">
+                    <img src="./assets/place_image-16.avif"
+                        class="card-img-top card-image" alt="..." height="280px" width="100%">
+                        <div class="heart-icon">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div><div class="card-body">
+                    <h5 class="card-title">Chikmagalur, India <span style="margin-left: 130px;"><i class="fa-solid fa-star"></i>4.8</span></h5>
+                    <p class="card-text">489 Kilometers away <br> 5-10 Jan <br> 
+                        <i class="fa-solid fa-indian-rupee-sign fa-xs"></i> 5,934
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container button-show">
+<h5>Continue exploring farms</h5>
+<button type="button" class="btn btn-3 btn-dark">Show more</button>
+</div>
+
+
+
+<div class="container">
+<h3 class="getaway">Inspiration for future getaways</h3>
+<div class="getaways">
+    <div class="getaways-item">
+        <span>Popular</span>
+    </div>
+    <div class="getaways-item">
+        <span>Arts&culture</span>
+    </div>
+    <div class="getaways-item">
+        <span>Outdoors</span>
+    </div>
+    <div class="getaways-item">
+        <span>Mountains</span>
+    </div>
+    <div class="getaways-item">
+        <span>Beach</span>
+    </div>
+    <div class="getaways-item">
+        <span>Unique stays</span>
+    </div>
+    <div class="getaways-item">
+        <span>Categories</span>
+    </div>
+    <div class="getaways-item">
+        <span>Things to do</span>
+    </div>
+        </div>
+</div>
+<hr class="hr">
+
+<div class="container">
+    <div class="row rows">
+      <!-- Card 1 -->
+      <div class="col-sm-2 mb-3">
+        <div class="card-getaways">
+          <div class="card-body">
+            <h5 class="card-title">Canmore</h5>
+            <p class="card-text">Pet-friendly rentals</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="col-sm-2 mb-3">
+        <div class="card-getaways">
+          <div class="card-body">
+            <h5 class="card-title">Benalmadena</h5>
+            <p class="card-text">Flat rentals</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="col-sm-2 mb-3">
+        <div class="card-getaways">
+          <div class="card-body">
+            <h5 class="card-title">Marbella</h5>
+            <p class="card-text">Beach house rentals</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 4 -->
+      <div class="col-sm-2 mb-3">
+        <div class="card-getaways">
+          <div class="card-body">
+            <h5 class="card-title">Mijas</h5>
+            <p class="card-text">House rentals</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 5 -->
+      <div class="col-sm-2 mb-3">
+        <div class="card-getaways">
+          <div class="card-body">
+            <h5 class="card-title">Prescott</h5>
+            <p class="card-text">Pet-friendly rentals</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 6 -->
+      <div class="col-sm-2 mb-3">
+        <div class="card-getaways">
+          <div class="card-body">
+            <h5 class="card-title">Scottsdale</h5>
+            <p class="card-text">Apartment rentals</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Tucson</h5>
+              <p class="card-text">Rentals with pools</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Jasper</h5>
+              <p class="card-text">Cabin rentals</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Mountain View</h5>
+              <p class="card-text">Flat rentals</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 4 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Devonport</h5>
+              <p class="card-text">Cottage rentals</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 5 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Mallacoota</h5>
+              <p class="card-text">Beach house rentals</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 6 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Ibiza</h5>
+              <p class="card-text">Holiday rentals</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Anaheim</h5>
+              <p class="card-text">Flat rentals</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Monterey</h5>
+              <p class="card-text">Bungalow rentals</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Paso Robles</h5>
+              <p class="card-text">House rentals</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 4 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Santa Barbara</h5>
+              <p class="card-text">Apartment rentals</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 5 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Sonoma</h5>
+              <p class="card-text">Rentals with pools</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 6 -->
+        <div class="col-sm-2 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Benalmadena</h5>
+              <p class="card-text">Flat rentals</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+
+  <hr>
+
+
+  <div class="container">
+    <div class="row">
+        <div class="col-4 mb-3">
+          <div class="card-getaways">
+            <div class="card-body">
+              <h5 class="card-title">Support</h5>
+              <p class="card-text">Help Center</p>
+              <p class="card-text">AirCover</p>
+              <p class="card-text">Anti-discrimination</p>
+              <p class="card-text">Disability support</p>
+              <p class="card-text">Cancellatin options</p>
+              <p class="card-text">Report neighbourhood concern</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-3">
+            <div class="card-getaways">
+              <div class="card-body">
+                <h5 class="card-title">Hosting</h5>
+                <p class="card-text">Airbnb your home</p>
+                <p class="card-text">AirCover for Hosts</p>
+                <p class="card-text">Hosting resources</p>
+                <p class="card-text">Communty forum</p>
+                <p class="card-text">Hosting responsibly</p>
+                <p class="card-text">Join a free Hosting calls</p>
+                <p class="card-text">Find a co-host</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 mb-3">
+            <div class="card-getaways">
+              <div class="card-body">
+                <h5 class="card-title">Airbnb</h5>
+                <p class="card-text">Newsroom</p>
+                <p class="card-text">New features</p>
+                <p class="card-text">Careers</p>
+                <p class="card-text">Investors</p>
+                <p class="card-text">Airbnb.org emergency stays</p>              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+
+  <hr class="hr">
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <span>© 2024 Airbnb, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Sitemap</a> · <a href="#">Company details</a></span>
+        </div>
+        <div class="footer-right">
+          <span><i class="fa-solid fa-globe globe-2"></i> English (IN)</span>
+          <span><i class="fa-solid fa-indian-rupee-sign"></i> INR</span>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+</body>
+</html>
